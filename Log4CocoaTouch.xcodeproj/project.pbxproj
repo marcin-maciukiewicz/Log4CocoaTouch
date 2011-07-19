@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32FE9F5B13D591CD00BBFEA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FE9F5A13D591CD00BBFEA4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32FE9F5713D591CD00BBFEA4 /* libLog4CocoaTouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLog4CocoaTouch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FE9F5A13D591CD00BBFEA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32FE9F5E13D591CD00BBFEA4 /* Log4CocoaTouch-Prefix.pch */ = {isa = PBXFileReference; path = "Log4CocoaTouch-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32FE9F5413D591CD00BBFEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FE9F5B13D591CD00BBFEA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32FE9F4C13D591CD00BBFEA4 = {
+			isa = PBXGroup;
+			children = (
+				32FE9F5C13D591CD00BBFEA4 /* Log4CocoaTouch */,
+				32FE9F5913D591CD00BBFEA4 /* Frameworks */,
+				32FE9F5813D591CD00BBFEA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32FE9F5813D591CD00BBFEA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32FE9F5713D591CD00BBFEA4 /* libLog4CocoaTouch.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32FE9F5913D591CD00BBFEA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32FE9F5A13D591CD00BBFEA4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32FE9F5C13D591CD00BBFEA4 /* Log4CocoaTouch */ = {
+			isa = PBXGroup;
+			children = (
+				32FE9F5D13D591CD00BBFEA4 /* Supporting Files */,
+			);
+			path = Log4CocoaTouch;
+			sourceTree = "<group>";
+		};
+		32FE9F5D13D591CD00BBFEA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32FE9F5E13D591CD00BBFEA4 /* Log4CocoaTouch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32FE9F5513D591CD00BBFEA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32FE9F5613D591CD00BBFEA4 /* Log4CocoaTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FE9F6113D591CD00BBFEA4 /* Build configuration list for PBXNativeTarget "Log4CocoaTouch" */;
+			buildPhases = (
+				32FE9F5313D591CD00BBFEA4 /* Sources */,
+				32FE9F5413D591CD00BBFEA4 /* Frameworks */,
+				32FE9F5513D591CD00BBFEA4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Log4CocoaTouch;
+			productName = Log4CocoaTouch;
+			productReference = 32FE9F5713D591CD00BBFEA4 /* libLog4CocoaTouch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32FE9F4E13D591CD00BBFEA4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 32FE9F5113D591CD00BBFEA4 /* Build configuration list for PBXProject "Log4CocoaTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32FE9F4C13D591CD00BBFEA4;
+			productRefGroup = 32FE9F5813D591CD00BBFEA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32FE9F5613D591CD00BBFEA4 /* Log4CocoaTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32FE9F5313D591CD00BBFEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		32FE9F5F13D591CD00BBFEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32FE9F6013D591CD00BBFEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		32FE9F6213D591CD00BBFEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/Log4CocoaTouch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Log4CocoaTouch/Log4CocoaTouch-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32FE9F6313D591CD00BBFEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/Log4CocoaTouch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Log4CocoaTouch/Log4CocoaTouch-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32FE9F5113D591CD00BBFEA4 /* Build configuration list for PBXProject "Log4CocoaTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FE9F5F13D591CD00BBFEA4 /* Debug */,
+				32FE9F6013D591CD00BBFEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FE9F6113D591CD00BBFEA4 /* Build configuration list for PBXNativeTarget "Log4CocoaTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FE9F6213D591CD00BBFEA4 /* Debug */,
+				32FE9F6313D591CD00BBFEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32FE9F4E13D591CD00BBFEA4 /* Project object */;
+}
