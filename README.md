@@ -10,12 +10,7 @@ This is a fork made from Log4Cocoa project (http://sourceforge.net/projects/log4
 * Drag'n'Drop Log4CocoaTouch.framework into Frameworks group in your project. Remember to tick "Copy..." option.
 * Add 
 
-    #define PSITOOLKIT_ENABLE_COCOA
-    #define PSITOOLKIT_ENABLE_MODELS
-    #define PSITOOLKIT_ENABLE_NETWORK
-    #define PSITOOLKIT_ENABLE_SECURITY
-    #define PSITOOLKIT_ENABLE_UIKIT
-    #import "PsiToolkit.h"
+    >#import <Log4CocoaTouch/Log4CocoaTouch.h>
 
 * Initialize logging during application start, e.g. https://gist.github.com/1091990
 * Use it, e.g. https://gist.github.com/1092009
