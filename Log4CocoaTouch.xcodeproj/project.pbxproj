@@ -8,12 +8,228 @@
 
 /* Begin PBXBuildFile section */
 		32FE9F5B13D591CD00BBFEA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FE9F5A13D591CD00BBFEA4 /* Foundation.framework */; };
+		32FE9FA213D591F900BBFEA4 /* L4AppenderAttachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F6513D591F900BBFEA4 /* L4AppenderAttachable.m */; };
+		32FE9FA513D591F900BBFEA4 /* L4AppenderSkeleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F6813D591F900BBFEA4 /* L4AppenderSkeleton.m */; };
+		32FE9FA713D591F900BBFEA4 /* L4BasicConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F6A13D591F900BBFEA4 /* L4BasicConfigurator.m */; };
+		32FE9FA913D591F900BBFEA4 /* L4ConsoleAppender.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F6C13D591F900BBFEA4 /* L4ConsoleAppender.m */; };
+		32FE9FAB13D591F900BBFEA4 /* L4DailyRollingFileAppender.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F6E13D591F900BBFEA4 /* L4DailyRollingFileAppender.m */; };
+		32FE9FAD13D591F900BBFEA4 /* L4DenyAllFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7013D591F900BBFEA4 /* L4DenyAllFilter.m */; };
+		32FE9FAF13D591F900BBFEA4 /* L4FileAppender.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7213D591F900BBFEA4 /* L4FileAppender.m */; };
+		32FE9FB113D591F900BBFEA4 /* L4Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7413D591F900BBFEA4 /* L4Filter.m */; };
+		32FE9FB313D591F900BBFEA4 /* L4Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7613D591F900BBFEA4 /* L4Layout.m */; };
+		32FE9FB513D591F900BBFEA4 /* L4Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7813D591F900BBFEA4 /* L4Level.m */; };
+		32FE9FB713D591F900BBFEA4 /* L4LevelMatchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7A13D591F900BBFEA4 /* L4LevelMatchFilter.m */; };
+		32FE9FB913D591F900BBFEA4 /* L4LevelRangeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7C13D591F900BBFEA4 /* L4LevelRangeFilter.m */; };
+		32FE9FBB13D591F900BBFEA4 /* L4Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7E13D591F900BBFEA4 /* L4Logger.m */; };
+		32FE9FBD13D591F900BBFEA4 /* L4LoggerNameMatchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8013D591F900BBFEA4 /* L4LoggerNameMatchFilter.m */; };
+		32FE9FC013D591F900BBFEA4 /* L4LoggerStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8313D591F900BBFEA4 /* L4LoggerStore.m */; };
+		32FE9FC213D591F900BBFEA4 /* L4Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8513D591F900BBFEA4 /* L4Logging.m */; };
+		32FE9FC413D591F900BBFEA4 /* L4LoggingEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8713D591F900BBFEA4 /* L4LoggingEvent.m */; };
+		32FE9FC613D591F900BBFEA4 /* L4LogLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8913D591F900BBFEA4 /* L4LogLog.m */; };
+		32FE9FC813D591F900BBFEA4 /* L4PatternLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8B13D591F900BBFEA4 /* L4PatternLayout.m */; };
+		32FE9FCA13D591F900BBFEA4 /* L4Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8D13D591F900BBFEA4 /* L4Properties.m */; };
+		32FE9FCC13D591F900BBFEA4 /* L4PropertyConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8F13D591F900BBFEA4 /* L4PropertyConfigurator.m */; };
+		32FE9FCE13D591F900BBFEA4 /* L4RollingFileAppender.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9113D591F900BBFEA4 /* L4RollingFileAppender.m */; };
+		32FE9FD013D591F900BBFEA4 /* L4RootLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9313D591F900BBFEA4 /* L4RootLogger.m */; };
+		32FE9FD213D591F900BBFEA4 /* L4SimpleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9513D591F900BBFEA4 /* L4SimpleLayout.m */; };
+		32FE9FD413D591F900BBFEA4 /* L4StringMatchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9713D591F900BBFEA4 /* L4StringMatchFilter.m */; };
+		32FE9FD613D591F900BBFEA4 /* L4WriterAppender.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9913D591F900BBFEA4 /* L4WriterAppender.m */; };
+		32FE9FDB13D591F900BBFEA4 /* NSDate-Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9E13D591F900BBFEA4 /* NSDate-Calendar.m */; };
+		32FE9FDD13D591F900BBFEA4 /* NSObject+Log4Cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9FA013D591F900BBFEA4 /* NSObject+Log4Cocoa.m */; };
+		32FE9FE013D5922900BBFEA4 /* L4AppenderAttachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F6513D591F900BBFEA4 /* L4AppenderAttachable.m */; };
+		32FE9FE113D5922900BBFEA4 /* L4AppenderSkeleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F6813D591F900BBFEA4 /* L4AppenderSkeleton.m */; };
+		32FE9FE213D5922900BBFEA4 /* L4BasicConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F6A13D591F900BBFEA4 /* L4BasicConfigurator.m */; };
+		32FE9FE313D5922900BBFEA4 /* L4ConsoleAppender.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F6C13D591F900BBFEA4 /* L4ConsoleAppender.m */; };
+		32FE9FE413D5922900BBFEA4 /* L4DailyRollingFileAppender.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F6E13D591F900BBFEA4 /* L4DailyRollingFileAppender.m */; };
+		32FE9FE513D5922900BBFEA4 /* L4DenyAllFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7013D591F900BBFEA4 /* L4DenyAllFilter.m */; };
+		32FE9FE613D5922900BBFEA4 /* L4FileAppender.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7213D591F900BBFEA4 /* L4FileAppender.m */; };
+		32FE9FE713D5922900BBFEA4 /* L4Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7413D591F900BBFEA4 /* L4Filter.m */; };
+		32FE9FE813D5922900BBFEA4 /* L4Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7613D591F900BBFEA4 /* L4Layout.m */; };
+		32FE9FE913D5922900BBFEA4 /* L4Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7813D591F900BBFEA4 /* L4Level.m */; };
+		32FE9FEA13D5922900BBFEA4 /* L4LevelMatchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7A13D591F900BBFEA4 /* L4LevelMatchFilter.m */; };
+		32FE9FEB13D5922900BBFEA4 /* L4LevelRangeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7C13D591F900BBFEA4 /* L4LevelRangeFilter.m */; };
+		32FE9FEC13D5922900BBFEA4 /* L4Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7E13D591F900BBFEA4 /* L4Logger.m */; };
+		32FE9FED13D5922900BBFEA4 /* L4LoggerNameMatchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8013D591F900BBFEA4 /* L4LoggerNameMatchFilter.m */; };
+		32FE9FEE13D5922900BBFEA4 /* L4LoggerStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8313D591F900BBFEA4 /* L4LoggerStore.m */; };
+		32FE9FEF13D5922900BBFEA4 /* L4Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8513D591F900BBFEA4 /* L4Logging.m */; };
+		32FE9FF013D5922900BBFEA4 /* L4LoggingEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8713D591F900BBFEA4 /* L4LoggingEvent.m */; };
+		32FE9FF113D5922900BBFEA4 /* L4LogLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8913D591F900BBFEA4 /* L4LogLog.m */; };
+		32FE9FF213D5922900BBFEA4 /* L4PatternLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8B13D591F900BBFEA4 /* L4PatternLayout.m */; };
+		32FE9FF313D5922900BBFEA4 /* L4Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8D13D591F900BBFEA4 /* L4Properties.m */; };
+		32FE9FF413D5922900BBFEA4 /* L4PropertyConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8F13D591F900BBFEA4 /* L4PropertyConfigurator.m */; };
+		32FE9FF513D5922900BBFEA4 /* L4RollingFileAppender.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9113D591F900BBFEA4 /* L4RollingFileAppender.m */; };
+		32FE9FF613D5922900BBFEA4 /* L4RootLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9313D591F900BBFEA4 /* L4RootLogger.m */; };
+		32FE9FF713D5922900BBFEA4 /* L4SimpleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9513D591F900BBFEA4 /* L4SimpleLayout.m */; };
+		32FE9FF813D5922900BBFEA4 /* L4StringMatchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9713D591F900BBFEA4 /* L4StringMatchFilter.m */; };
+		32FE9FF913D5922900BBFEA4 /* L4WriterAppender.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9913D591F900BBFEA4 /* L4WriterAppender.m */; };
+		32FE9FFA13D5922900BBFEA4 /* NSDate-Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9E13D591F900BBFEA4 /* NSDate-Calendar.m */; };
+		32FE9FFB13D5922900BBFEA4 /* NSObject+Log4Cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9FA013D591F900BBFEA4 /* NSObject+Log4Cocoa.m */; };
+		32FE9FFD13D5922900BBFEA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FE9F5A13D591CD00BBFEA4 /* Foundation.framework */; };
+		32FEA02613D5922C00BBFEA4 /* L4AppenderAttachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F6513D591F900BBFEA4 /* L4AppenderAttachable.m */; };
+		32FEA02713D5922C00BBFEA4 /* L4AppenderSkeleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F6813D591F900BBFEA4 /* L4AppenderSkeleton.m */; };
+		32FEA02813D5922C00BBFEA4 /* L4BasicConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F6A13D591F900BBFEA4 /* L4BasicConfigurator.m */; };
+		32FEA02913D5922C00BBFEA4 /* L4ConsoleAppender.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F6C13D591F900BBFEA4 /* L4ConsoleAppender.m */; };
+		32FEA02A13D5922C00BBFEA4 /* L4DailyRollingFileAppender.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F6E13D591F900BBFEA4 /* L4DailyRollingFileAppender.m */; };
+		32FEA02B13D5922C00BBFEA4 /* L4DenyAllFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7013D591F900BBFEA4 /* L4DenyAllFilter.m */; };
+		32FEA02C13D5922C00BBFEA4 /* L4FileAppender.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7213D591F900BBFEA4 /* L4FileAppender.m */; };
+		32FEA02D13D5922C00BBFEA4 /* L4Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7413D591F900BBFEA4 /* L4Filter.m */; };
+		32FEA02E13D5922C00BBFEA4 /* L4Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7613D591F900BBFEA4 /* L4Layout.m */; };
+		32FEA02F13D5922C00BBFEA4 /* L4Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7813D591F900BBFEA4 /* L4Level.m */; };
+		32FEA03013D5922C00BBFEA4 /* L4LevelMatchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7A13D591F900BBFEA4 /* L4LevelMatchFilter.m */; };
+		32FEA03113D5922C00BBFEA4 /* L4LevelRangeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7C13D591F900BBFEA4 /* L4LevelRangeFilter.m */; };
+		32FEA03213D5922C00BBFEA4 /* L4Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F7E13D591F900BBFEA4 /* L4Logger.m */; };
+		32FEA03313D5922C00BBFEA4 /* L4LoggerNameMatchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8013D591F900BBFEA4 /* L4LoggerNameMatchFilter.m */; };
+		32FEA03413D5922C00BBFEA4 /* L4LoggerStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8313D591F900BBFEA4 /* L4LoggerStore.m */; };
+		32FEA03513D5922C00BBFEA4 /* L4Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8513D591F900BBFEA4 /* L4Logging.m */; };
+		32FEA03613D5922C00BBFEA4 /* L4LoggingEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8713D591F900BBFEA4 /* L4LoggingEvent.m */; };
+		32FEA03713D5922C00BBFEA4 /* L4LogLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8913D591F900BBFEA4 /* L4LogLog.m */; };
+		32FEA03813D5922C00BBFEA4 /* L4PatternLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8B13D591F900BBFEA4 /* L4PatternLayout.m */; };
+		32FEA03913D5922C00BBFEA4 /* L4Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8D13D591F900BBFEA4 /* L4Properties.m */; };
+		32FEA03A13D5922C00BBFEA4 /* L4PropertyConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F8F13D591F900BBFEA4 /* L4PropertyConfigurator.m */; };
+		32FEA03B13D5922C00BBFEA4 /* L4RollingFileAppender.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9113D591F900BBFEA4 /* L4RollingFileAppender.m */; };
+		32FEA03C13D5922C00BBFEA4 /* L4RootLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9313D591F900BBFEA4 /* L4RootLogger.m */; };
+		32FEA03D13D5922C00BBFEA4 /* L4SimpleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9513D591F900BBFEA4 /* L4SimpleLayout.m */; };
+		32FEA03E13D5922C00BBFEA4 /* L4StringMatchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9713D591F900BBFEA4 /* L4StringMatchFilter.m */; };
+		32FEA03F13D5922C00BBFEA4 /* L4WriterAppender.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9913D591F900BBFEA4 /* L4WriterAppender.m */; };
+		32FEA04013D5922C00BBFEA4 /* NSDate-Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9F9E13D591F900BBFEA4 /* NSDate-Calendar.m */; };
+		32FEA04113D5922C00BBFEA4 /* NSObject+Log4Cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9FA013D591F900BBFEA4 /* NSObject+Log4Cocoa.m */; };
+		32FEA04313D5922C00BBFEA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FE9F5A13D591CD00BBFEA4 /* Foundation.framework */; };
+		32FEA07113D5924E00BBFEA4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FEA07013D5924E00BBFEA4 /* Cocoa.framework */; };
+		32FEA07B13D5924E00BBFEA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32FEA07913D5924E00BBFEA4 /* InfoPlist.strings */; };
+		32FEA0A513D5959C00BBFEA4 /* L4AppenderAttachable.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F6413D591F900BBFEA4 /* L4AppenderAttachable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0A613D5959C00BBFEA4 /* L4AppenderProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F6613D591F900BBFEA4 /* L4AppenderProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0A713D5959C00BBFEA4 /* L4AppenderSkeleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F6713D591F900BBFEA4 /* L4AppenderSkeleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0A813D5959C00BBFEA4 /* L4BasicConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F6913D591F900BBFEA4 /* L4BasicConfigurator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0A913D5959C00BBFEA4 /* L4ConsoleAppender.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F6B13D591F900BBFEA4 /* L4ConsoleAppender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0AA13D5959C00BBFEA4 /* L4DailyRollingFileAppender.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F6D13D591F900BBFEA4 /* L4DailyRollingFileAppender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0AB13D5959C00BBFEA4 /* L4DenyAllFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F6F13D591F900BBFEA4 /* L4DenyAllFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0AC13D5959C00BBFEA4 /* L4FileAppender.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F7113D591F900BBFEA4 /* L4FileAppender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0AD13D5959C00BBFEA4 /* L4Filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F7313D591F900BBFEA4 /* L4Filter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0AE13D5959C00BBFEA4 /* L4Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F7513D591F900BBFEA4 /* L4Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0AF13D5959C00BBFEA4 /* L4Level.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F7713D591F900BBFEA4 /* L4Level.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0B013D5959C00BBFEA4 /* L4LevelMatchFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F7913D591F900BBFEA4 /* L4LevelMatchFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0B113D5959C00BBFEA4 /* L4LevelRangeFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F7B13D591F900BBFEA4 /* L4LevelRangeFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0B213D5959C00BBFEA4 /* L4Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F7D13D591F900BBFEA4 /* L4Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0B313D5959C00BBFEA4 /* L4LoggerNameMatchFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F7F13D591F900BBFEA4 /* L4LoggerNameMatchFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0B413D5959C00BBFEA4 /* L4LoggerProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F8113D591F900BBFEA4 /* L4LoggerProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0B513D5959C00BBFEA4 /* L4LoggerStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F8213D591F900BBFEA4 /* L4LoggerStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0B613D5959C00BBFEA4 /* L4Logging.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F8413D591F900BBFEA4 /* L4Logging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0B713D5959C00BBFEA4 /* L4LoggingEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F8613D591F900BBFEA4 /* L4LoggingEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0B813D5959C00BBFEA4 /* L4LogLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F8813D591F900BBFEA4 /* L4LogLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0B913D5959C00BBFEA4 /* L4PatternLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F8A13D591F900BBFEA4 /* L4PatternLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0BA13D5959C00BBFEA4 /* L4Properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F8C13D591F900BBFEA4 /* L4Properties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0BB13D5959C00BBFEA4 /* L4PropertyConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F8E13D591F900BBFEA4 /* L4PropertyConfigurator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0BC13D5959C00BBFEA4 /* L4RollingFileAppender.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F9013D591F900BBFEA4 /* L4RollingFileAppender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0BD13D5959C00BBFEA4 /* L4RootLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F9213D591F900BBFEA4 /* L4RootLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0BE13D5959C00BBFEA4 /* L4SimpleLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F9413D591F900BBFEA4 /* L4SimpleLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0BF13D5959C00BBFEA4 /* L4StringMatchFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F9613D591F900BBFEA4 /* L4StringMatchFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0C013D5959C00BBFEA4 /* L4WriterAppender.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F9813D591F900BBFEA4 /* L4WriterAppender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0C113D5959C00BBFEA4 /* Log4Cocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F9A13D591F900BBFEA4 /* Log4Cocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0C213D5959C00BBFEA4 /* Log4CocoaDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F9B13D591F900BBFEA4 /* Log4CocoaDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0C313D5959C00BBFEA4 /* Log4CocoaTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F9C13D591F900BBFEA4 /* Log4CocoaTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0C413D5959C00BBFEA4 /* NSDate-Calendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F9D13D591F900BBFEA4 /* NSDate-Calendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FEA0C513D5959C00BBFEA4 /* NSObject+Log4Cocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FE9F9F13D591F900BBFEA4 /* NSObject+Log4Cocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		32FEA08013D5925700BBFEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32FE9F4E13D591CD00BBFEA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FEA02413D5922C00BBFEA4;
+			remoteInfo = "Log4CocoaTouch-Universal";
+		};
+		32FEA08213D5925C00BBFEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32FE9F4E13D591CD00BBFEA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FE9FDE13D5922900BBFEA4;
+			remoteInfo = "Log4CocoaTouch-iOS-Simulator";
+		};
+		32FEA08413D5925F00BBFEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32FE9F4E13D591CD00BBFEA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FE9F5613D591CD00BBFEA4;
+			remoteInfo = "Log4CocoaTouch-iOS-Device";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		32FE9F5713D591CD00BBFEA4 /* libLog4CocoaTouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLog4CocoaTouch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FE9F5713D591CD00BBFEA4 /* libLog4CocoaTouch-iOS-Device.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libLog4CocoaTouch-iOS-Device.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FE9F5A13D591CD00BBFEA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		32FE9F5E13D591CD00BBFEA4 /* Log4CocoaTouch-Prefix.pch */ = {isa = PBXFileReference; path = "Log4CocoaTouch-Prefix.pch"; sourceTree = "<group>"; };
+		32FE9F5E13D591CD00BBFEA4 /* Log4CocoaTouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Log4CocoaTouch-Prefix.pch"; sourceTree = "<group>"; };
+		32FE9F6413D591F900BBFEA4 /* L4AppenderAttachable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4AppenderAttachable.h; sourceTree = "<group>"; };
+		32FE9F6513D591F900BBFEA4 /* L4AppenderAttachable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4AppenderAttachable.m; sourceTree = "<group>"; };
+		32FE9F6613D591F900BBFEA4 /* L4AppenderProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4AppenderProtocols.h; sourceTree = "<group>"; };
+		32FE9F6713D591F900BBFEA4 /* L4AppenderSkeleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4AppenderSkeleton.h; sourceTree = "<group>"; };
+		32FE9F6813D591F900BBFEA4 /* L4AppenderSkeleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4AppenderSkeleton.m; sourceTree = "<group>"; };
+		32FE9F6913D591F900BBFEA4 /* L4BasicConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4BasicConfigurator.h; sourceTree = "<group>"; };
+		32FE9F6A13D591F900BBFEA4 /* L4BasicConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4BasicConfigurator.m; sourceTree = "<group>"; };
+		32FE9F6B13D591F900BBFEA4 /* L4ConsoleAppender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4ConsoleAppender.h; sourceTree = "<group>"; };
+		32FE9F6C13D591F900BBFEA4 /* L4ConsoleAppender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4ConsoleAppender.m; sourceTree = "<group>"; };
+		32FE9F6D13D591F900BBFEA4 /* L4DailyRollingFileAppender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4DailyRollingFileAppender.h; sourceTree = "<group>"; };
+		32FE9F6E13D591F900BBFEA4 /* L4DailyRollingFileAppender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4DailyRollingFileAppender.m; sourceTree = "<group>"; };
+		32FE9F6F13D591F900BBFEA4 /* L4DenyAllFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4DenyAllFilter.h; sourceTree = "<group>"; };
+		32FE9F7013D591F900BBFEA4 /* L4DenyAllFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4DenyAllFilter.m; sourceTree = "<group>"; };
+		32FE9F7113D591F900BBFEA4 /* L4FileAppender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4FileAppender.h; sourceTree = "<group>"; };
+		32FE9F7213D591F900BBFEA4 /* L4FileAppender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4FileAppender.m; sourceTree = "<group>"; };
+		32FE9F7313D591F900BBFEA4 /* L4Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4Filter.h; sourceTree = "<group>"; };
+		32FE9F7413D591F900BBFEA4 /* L4Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4Filter.m; sourceTree = "<group>"; };
+		32FE9F7513D591F900BBFEA4 /* L4Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4Layout.h; sourceTree = "<group>"; };
+		32FE9F7613D591F900BBFEA4 /* L4Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4Layout.m; sourceTree = "<group>"; };
+		32FE9F7713D591F900BBFEA4 /* L4Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4Level.h; sourceTree = "<group>"; };
+		32FE9F7813D591F900BBFEA4 /* L4Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4Level.m; sourceTree = "<group>"; };
+		32FE9F7913D591F900BBFEA4 /* L4LevelMatchFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4LevelMatchFilter.h; sourceTree = "<group>"; };
+		32FE9F7A13D591F900BBFEA4 /* L4LevelMatchFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4LevelMatchFilter.m; sourceTree = "<group>"; };
+		32FE9F7B13D591F900BBFEA4 /* L4LevelRangeFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4LevelRangeFilter.h; sourceTree = "<group>"; };
+		32FE9F7C13D591F900BBFEA4 /* L4LevelRangeFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4LevelRangeFilter.m; sourceTree = "<group>"; };
+		32FE9F7D13D591F900BBFEA4 /* L4Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4Logger.h; sourceTree = "<group>"; };
+		32FE9F7E13D591F900BBFEA4 /* L4Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4Logger.m; sourceTree = "<group>"; };
+		32FE9F7F13D591F900BBFEA4 /* L4LoggerNameMatchFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4LoggerNameMatchFilter.h; sourceTree = "<group>"; };
+		32FE9F8013D591F900BBFEA4 /* L4LoggerNameMatchFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4LoggerNameMatchFilter.m; sourceTree = "<group>"; };
+		32FE9F8113D591F900BBFEA4 /* L4LoggerProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4LoggerProtocols.h; sourceTree = "<group>"; };
+		32FE9F8213D591F900BBFEA4 /* L4LoggerStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4LoggerStore.h; sourceTree = "<group>"; };
+		32FE9F8313D591F900BBFEA4 /* L4LoggerStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4LoggerStore.m; sourceTree = "<group>"; };
+		32FE9F8413D591F900BBFEA4 /* L4Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4Logging.h; sourceTree = "<group>"; };
+		32FE9F8513D591F900BBFEA4 /* L4Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4Logging.m; sourceTree = "<group>"; };
+		32FE9F8613D591F900BBFEA4 /* L4LoggingEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4LoggingEvent.h; sourceTree = "<group>"; };
+		32FE9F8713D591F900BBFEA4 /* L4LoggingEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4LoggingEvent.m; sourceTree = "<group>"; };
+		32FE9F8813D591F900BBFEA4 /* L4LogLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4LogLog.h; sourceTree = "<group>"; };
+		32FE9F8913D591F900BBFEA4 /* L4LogLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4LogLog.m; sourceTree = "<group>"; };
+		32FE9F8A13D591F900BBFEA4 /* L4PatternLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4PatternLayout.h; sourceTree = "<group>"; };
+		32FE9F8B13D591F900BBFEA4 /* L4PatternLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4PatternLayout.m; sourceTree = "<group>"; };
+		32FE9F8C13D591F900BBFEA4 /* L4Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4Properties.h; sourceTree = "<group>"; };
+		32FE9F8D13D591F900BBFEA4 /* L4Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4Properties.m; sourceTree = "<group>"; };
+		32FE9F8E13D591F900BBFEA4 /* L4PropertyConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4PropertyConfigurator.h; sourceTree = "<group>"; };
+		32FE9F8F13D591F900BBFEA4 /* L4PropertyConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4PropertyConfigurator.m; sourceTree = "<group>"; };
+		32FE9F9013D591F900BBFEA4 /* L4RollingFileAppender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4RollingFileAppender.h; sourceTree = "<group>"; };
+		32FE9F9113D591F900BBFEA4 /* L4RollingFileAppender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4RollingFileAppender.m; sourceTree = "<group>"; };
+		32FE9F9213D591F900BBFEA4 /* L4RootLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4RootLogger.h; sourceTree = "<group>"; };
+		32FE9F9313D591F900BBFEA4 /* L4RootLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4RootLogger.m; sourceTree = "<group>"; };
+		32FE9F9413D591F900BBFEA4 /* L4SimpleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4SimpleLayout.h; sourceTree = "<group>"; };
+		32FE9F9513D591F900BBFEA4 /* L4SimpleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4SimpleLayout.m; sourceTree = "<group>"; };
+		32FE9F9613D591F900BBFEA4 /* L4StringMatchFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4StringMatchFilter.h; sourceTree = "<group>"; };
+		32FE9F9713D591F900BBFEA4 /* L4StringMatchFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4StringMatchFilter.m; sourceTree = "<group>"; };
+		32FE9F9813D591F900BBFEA4 /* L4WriterAppender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L4WriterAppender.h; sourceTree = "<group>"; };
+		32FE9F9913D591F900BBFEA4 /* L4WriterAppender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L4WriterAppender.m; sourceTree = "<group>"; };
+		32FE9F9A13D591F900BBFEA4 /* Log4Cocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log4Cocoa.h; sourceTree = "<group>"; };
+		32FE9F9B13D591F900BBFEA4 /* Log4CocoaDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log4CocoaDefines.h; sourceTree = "<group>"; };
+		32FE9F9C13D591F900BBFEA4 /* Log4CocoaTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log4CocoaTouch.h; sourceTree = "<group>"; };
+		32FE9F9D13D591F900BBFEA4 /* NSDate-Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-Calendar.h"; sourceTree = "<group>"; };
+		32FE9F9E13D591F900BBFEA4 /* NSDate-Calendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-Calendar.m"; sourceTree = "<group>"; };
+		32FE9F9F13D591F900BBFEA4 /* NSObject+Log4Cocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Log4Cocoa.h"; sourceTree = "<group>"; };
+		32FE9FA013D591F900BBFEA4 /* NSObject+Log4Cocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Log4Cocoa.m"; sourceTree = "<group>"; };
+		32FEA02313D5922900BBFEA4 /* libLog4CocoaTouch-iOS-Simulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libLog4CocoaTouch-iOS-Simulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FEA06913D5922C00BBFEA4 /* libLog4CocoaTouch-Universal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libLog4CocoaTouch-Universal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FEA06F13D5924E00BBFEA4 /* Log4CocoaTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Log4CocoaTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FEA07013D5924E00BBFEA4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		32FEA07313D5924E00BBFEA4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		32FEA07413D5924E00BBFEA4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		32FEA07513D5924E00BBFEA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32FEA07813D5924E00BBFEA4 /* Log4CocoaTouch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Log4CocoaTouch-Info.plist"; sourceTree = "<group>"; };
+		32FEA07A13D5924E00BBFEA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32FEA07C13D5924E00BBFEA4 /* Log4CocoaTouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Log4CocoaTouch-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,13 +241,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32FE9FFC13D5922900BBFEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FE9FFD13D5922900BBFEA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FEA04213D5922C00BBFEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FEA04313D5922C00BBFEA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FEA06B13D5924E00BBFEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FEA07113D5924E00BBFEA4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		32FE9F4C13D591CD00BBFEA4 = {
 			isa = PBXGroup;
 			children = (
-				32FE9F5C13D591CD00BBFEA4 /* Log4CocoaTouch */,
+				32FE9F5C13D591CD00BBFEA4 /* Log4CocoaTouchLib */,
+				32FEA07613D5924E00BBFEA4 /* Log4CocoaTouch */,
 				32FE9F5913D591CD00BBFEA4 /* Frameworks */,
 				32FE9F5813D591CD00BBFEA4 /* Products */,
 			);
@@ -40,7 +281,10 @@
 		32FE9F5813D591CD00BBFEA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32FE9F5713D591CD00BBFEA4 /* libLog4CocoaTouch.a */,
+				32FE9F5713D591CD00BBFEA4 /* libLog4CocoaTouch-iOS-Device.a */,
+				32FEA02313D5922900BBFEA4 /* libLog4CocoaTouch-iOS-Simulator.a */,
+				32FEA06913D5922C00BBFEA4 /* libLog4CocoaTouch-Universal.a */,
+				32FEA06F13D5924E00BBFEA4 /* Log4CocoaTouch.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -49,15 +293,79 @@
 			isa = PBXGroup;
 			children = (
 				32FE9F5A13D591CD00BBFEA4 /* Foundation.framework */,
+				32FEA07013D5924E00BBFEA4 /* Cocoa.framework */,
+				32FEA07213D5924E00BBFEA4 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		32FE9F5C13D591CD00BBFEA4 /* Log4CocoaTouch */ = {
+		32FE9F5C13D591CD00BBFEA4 /* Log4CocoaTouchLib */ = {
 			isa = PBXGroup;
 			children = (
+				32FE9F6413D591F900BBFEA4 /* L4AppenderAttachable.h */,
+				32FE9F6513D591F900BBFEA4 /* L4AppenderAttachable.m */,
+				32FE9F6613D591F900BBFEA4 /* L4AppenderProtocols.h */,
+				32FE9F6713D591F900BBFEA4 /* L4AppenderSkeleton.h */,
+				32FE9F6813D591F900BBFEA4 /* L4AppenderSkeleton.m */,
+				32FE9F6913D591F900BBFEA4 /* L4BasicConfigurator.h */,
+				32FE9F6A13D591F900BBFEA4 /* L4BasicConfigurator.m */,
+				32FE9F6B13D591F900BBFEA4 /* L4ConsoleAppender.h */,
+				32FE9F6C13D591F900BBFEA4 /* L4ConsoleAppender.m */,
+				32FE9F6D13D591F900BBFEA4 /* L4DailyRollingFileAppender.h */,
+				32FE9F6E13D591F900BBFEA4 /* L4DailyRollingFileAppender.m */,
+				32FE9F6F13D591F900BBFEA4 /* L4DenyAllFilter.h */,
+				32FE9F7013D591F900BBFEA4 /* L4DenyAllFilter.m */,
+				32FE9F7113D591F900BBFEA4 /* L4FileAppender.h */,
+				32FE9F7213D591F900BBFEA4 /* L4FileAppender.m */,
+				32FE9F7313D591F900BBFEA4 /* L4Filter.h */,
+				32FE9F7413D591F900BBFEA4 /* L4Filter.m */,
+				32FE9F7513D591F900BBFEA4 /* L4Layout.h */,
+				32FE9F7613D591F900BBFEA4 /* L4Layout.m */,
+				32FE9F7713D591F900BBFEA4 /* L4Level.h */,
+				32FE9F7813D591F900BBFEA4 /* L4Level.m */,
+				32FE9F7913D591F900BBFEA4 /* L4LevelMatchFilter.h */,
+				32FE9F7A13D591F900BBFEA4 /* L4LevelMatchFilter.m */,
+				32FE9F7B13D591F900BBFEA4 /* L4LevelRangeFilter.h */,
+				32FE9F7C13D591F900BBFEA4 /* L4LevelRangeFilter.m */,
+				32FE9F7D13D591F900BBFEA4 /* L4Logger.h */,
+				32FE9F7E13D591F900BBFEA4 /* L4Logger.m */,
+				32FE9F7F13D591F900BBFEA4 /* L4LoggerNameMatchFilter.h */,
+				32FE9F8013D591F900BBFEA4 /* L4LoggerNameMatchFilter.m */,
+				32FE9F8113D591F900BBFEA4 /* L4LoggerProtocols.h */,
+				32FE9F8213D591F900BBFEA4 /* L4LoggerStore.h */,
+				32FE9F8313D591F900BBFEA4 /* L4LoggerStore.m */,
+				32FE9F8413D591F900BBFEA4 /* L4Logging.h */,
+				32FE9F8513D591F900BBFEA4 /* L4Logging.m */,
+				32FE9F8613D591F900BBFEA4 /* L4LoggingEvent.h */,
+				32FE9F8713D591F900BBFEA4 /* L4LoggingEvent.m */,
+				32FE9F8813D591F900BBFEA4 /* L4LogLog.h */,
+				32FE9F8913D591F900BBFEA4 /* L4LogLog.m */,
+				32FE9F8A13D591F900BBFEA4 /* L4PatternLayout.h */,
+				32FE9F8B13D591F900BBFEA4 /* L4PatternLayout.m */,
+				32FE9F8C13D591F900BBFEA4 /* L4Properties.h */,
+				32FE9F8D13D591F900BBFEA4 /* L4Properties.m */,
+				32FE9F8E13D591F900BBFEA4 /* L4PropertyConfigurator.h */,
+				32FE9F8F13D591F900BBFEA4 /* L4PropertyConfigurator.m */,
+				32FE9F9013D591F900BBFEA4 /* L4RollingFileAppender.h */,
+				32FE9F9113D591F900BBFEA4 /* L4RollingFileAppender.m */,
+				32FE9F9213D591F900BBFEA4 /* L4RootLogger.h */,
+				32FE9F9313D591F900BBFEA4 /* L4RootLogger.m */,
+				32FE9F9413D591F900BBFEA4 /* L4SimpleLayout.h */,
+				32FE9F9513D591F900BBFEA4 /* L4SimpleLayout.m */,
+				32FE9F9613D591F900BBFEA4 /* L4StringMatchFilter.h */,
+				32FE9F9713D591F900BBFEA4 /* L4StringMatchFilter.m */,
+				32FE9F9813D591F900BBFEA4 /* L4WriterAppender.h */,
+				32FE9F9913D591F900BBFEA4 /* L4WriterAppender.m */,
+				32FE9F9A13D591F900BBFEA4 /* Log4Cocoa.h */,
+				32FE9F9B13D591F900BBFEA4 /* Log4CocoaDefines.h */,
+				32FE9F9C13D591F900BBFEA4 /* Log4CocoaTouch.h */,
+				32FE9F9D13D591F900BBFEA4 /* NSDate-Calendar.h */,
+				32FE9F9E13D591F900BBFEA4 /* NSDate-Calendar.m */,
+				32FE9F9F13D591F900BBFEA4 /* NSObject+Log4Cocoa.h */,
+				32FE9FA013D591F900BBFEA4 /* NSObject+Log4Cocoa.m */,
 				32FE9F5D13D591CD00BBFEA4 /* Supporting Files */,
 			);
+			name = Log4CocoaTouchLib;
 			path = Log4CocoaTouch;
 			sourceTree = "<group>";
 		};
@@ -65,6 +373,34 @@
 			isa = PBXGroup;
 			children = (
 				32FE9F5E13D591CD00BBFEA4 /* Log4CocoaTouch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32FEA07213D5924E00BBFEA4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32FEA07313D5924E00BBFEA4 /* AppKit.framework */,
+				32FEA07413D5924E00BBFEA4 /* CoreData.framework */,
+				32FEA07513D5924E00BBFEA4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32FEA07613D5924E00BBFEA4 /* Log4CocoaTouch */ = {
+			isa = PBXGroup;
+			children = (
+				32FEA07713D5924E00BBFEA4 /* Supporting Files */,
+			);
+			path = Log4CocoaTouch;
+			sourceTree = "<group>";
+		};
+		32FEA07713D5924E00BBFEA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32FEA07813D5924E00BBFEA4 /* Log4CocoaTouch-Info.plist */,
+				32FEA07913D5924E00BBFEA4 /* InfoPlist.strings */,
+				32FEA07C13D5924E00BBFEA4 /* Log4CocoaTouch-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -79,12 +415,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32FE9FFE13D5922900BBFEA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FEA04413D5922C00BBFEA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FEA06C13D5924E00BBFEA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FEA0A513D5959C00BBFEA4 /* L4AppenderAttachable.h in Headers */,
+				32FEA0A613D5959C00BBFEA4 /* L4AppenderProtocols.h in Headers */,
+				32FEA0A713D5959C00BBFEA4 /* L4AppenderSkeleton.h in Headers */,
+				32FEA0A813D5959C00BBFEA4 /* L4BasicConfigurator.h in Headers */,
+				32FEA0A913D5959C00BBFEA4 /* L4ConsoleAppender.h in Headers */,
+				32FEA0AA13D5959C00BBFEA4 /* L4DailyRollingFileAppender.h in Headers */,
+				32FEA0AB13D5959C00BBFEA4 /* L4DenyAllFilter.h in Headers */,
+				32FEA0AC13D5959C00BBFEA4 /* L4FileAppender.h in Headers */,
+				32FEA0AD13D5959C00BBFEA4 /* L4Filter.h in Headers */,
+				32FEA0AE13D5959C00BBFEA4 /* L4Layout.h in Headers */,
+				32FEA0AF13D5959C00BBFEA4 /* L4Level.h in Headers */,
+				32FEA0B013D5959C00BBFEA4 /* L4LevelMatchFilter.h in Headers */,
+				32FEA0B113D5959C00BBFEA4 /* L4LevelRangeFilter.h in Headers */,
+				32FEA0B213D5959C00BBFEA4 /* L4Logger.h in Headers */,
+				32FEA0B313D5959C00BBFEA4 /* L4LoggerNameMatchFilter.h in Headers */,
+				32FEA0B413D5959C00BBFEA4 /* L4LoggerProtocols.h in Headers */,
+				32FEA0B513D5959C00BBFEA4 /* L4LoggerStore.h in Headers */,
+				32FEA0B613D5959C00BBFEA4 /* L4Logging.h in Headers */,
+				32FEA0B713D5959C00BBFEA4 /* L4LoggingEvent.h in Headers */,
+				32FEA0B813D5959C00BBFEA4 /* L4LogLog.h in Headers */,
+				32FEA0B913D5959C00BBFEA4 /* L4PatternLayout.h in Headers */,
+				32FEA0BA13D5959C00BBFEA4 /* L4Properties.h in Headers */,
+				32FEA0BB13D5959C00BBFEA4 /* L4PropertyConfigurator.h in Headers */,
+				32FEA0BC13D5959C00BBFEA4 /* L4RollingFileAppender.h in Headers */,
+				32FEA0BD13D5959C00BBFEA4 /* L4RootLogger.h in Headers */,
+				32FEA0BE13D5959C00BBFEA4 /* L4SimpleLayout.h in Headers */,
+				32FEA0BF13D5959C00BBFEA4 /* L4StringMatchFilter.h in Headers */,
+				32FEA0C013D5959C00BBFEA4 /* L4WriterAppender.h in Headers */,
+				32FEA0C113D5959C00BBFEA4 /* Log4Cocoa.h in Headers */,
+				32FEA0C213D5959C00BBFEA4 /* Log4CocoaDefines.h in Headers */,
+				32FEA0C313D5959C00BBFEA4 /* Log4CocoaTouch.h in Headers */,
+				32FEA0C413D5959C00BBFEA4 /* NSDate-Calendar.h in Headers */,
+				32FEA0C513D5959C00BBFEA4 /* NSObject+Log4Cocoa.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		32FE9F5613D591CD00BBFEA4 /* Log4CocoaTouch */ = {
+		32FE9F5613D591CD00BBFEA4 /* Log4CocoaTouch-iOS-Device */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32FE9F6113D591CD00BBFEA4 /* Build configuration list for PBXNativeTarget "Log4CocoaTouch" */;
+			buildConfigurationList = 32FE9F6113D591CD00BBFEA4 /* Build configuration list for PBXNativeTarget "Log4CocoaTouch-iOS-Device" */;
 			buildPhases = (
 				32FE9F5313D591CD00BBFEA4 /* Sources */,
 				32FE9F5413D591CD00BBFEA4 /* Frameworks */,
@@ -94,10 +484,68 @@
 			);
 			dependencies = (
 			);
+			name = "Log4CocoaTouch-iOS-Device";
+			productName = Log4CocoaTouch;
+			productReference = 32FE9F5713D591CD00BBFEA4 /* libLog4CocoaTouch-iOS-Device.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		32FE9FDE13D5922900BBFEA4 /* Log4CocoaTouch-iOS-Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FEA02013D5922900BBFEA4 /* Build configuration list for PBXNativeTarget "Log4CocoaTouch-iOS-Simulator" */;
+			buildPhases = (
+				32FE9FDF13D5922900BBFEA4 /* Sources */,
+				32FE9FFC13D5922900BBFEA4 /* Frameworks */,
+				32FE9FFE13D5922900BBFEA4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Log4CocoaTouch-iOS-Simulator";
+			productName = Log4CocoaTouch;
+			productReference = 32FEA02313D5922900BBFEA4 /* libLog4CocoaTouch-iOS-Simulator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		32FEA02413D5922C00BBFEA4 /* Log4CocoaTouch-Universal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FEA06613D5922C00BBFEA4 /* Build configuration list for PBXNativeTarget "Log4CocoaTouch-Universal" */;
+			buildPhases = (
+				32FEA02513D5922C00BBFEA4 /* Sources */,
+				32FEA04213D5922C00BBFEA4 /* Frameworks */,
+				32FEA04413D5922C00BBFEA4 /* Headers */,
+				32FEA08E13D5933700BBFEA4 /* Lipo Binary */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32FEA08513D5925F00BBFEA4 /* PBXTargetDependency */,
+				32FEA08313D5925C00BBFEA4 /* PBXTargetDependency */,
+			);
+			name = "Log4CocoaTouch-Universal";
+			productName = Log4CocoaTouch;
+			productReference = 32FEA06913D5922C00BBFEA4 /* libLog4CocoaTouch-Universal.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		32FEA06E13D5924E00BBFEA4 /* Log4CocoaTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FEA07D13D5924E00BBFEA4 /* Build configuration list for PBXNativeTarget "Log4CocoaTouch" */;
+			buildPhases = (
+				32FEA06A13D5924E00BBFEA4 /* Sources */,
+				32FEA06B13D5924E00BBFEA4 /* Frameworks */,
+				32FEA06C13D5924E00BBFEA4 /* Headers */,
+				32FEA06D13D5924E00BBFEA4 /* Resources */,
+				32FEA09013D5936A00BBFEA4 /* Copy Library */,
+				32FEA09113D5937B00BBFEA4 /* Framework Archive */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32FEA08113D5925700BBFEA4 /* PBXTargetDependency */,
+			);
 			name = Log4CocoaTouch;
 			productName = Log4CocoaTouch;
-			productReference = 32FE9F5713D591CD00BBFEA4 /* libLog4CocoaTouch.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 32FEA06F13D5924E00BBFEA4 /* Log4CocoaTouch.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -116,13 +564,179 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32FE9F5613D591CD00BBFEA4 /* Log4CocoaTouch */,
+				32FE9F5613D591CD00BBFEA4 /* Log4CocoaTouch-iOS-Device */,
+				32FE9FDE13D5922900BBFEA4 /* Log4CocoaTouch-iOS-Simulator */,
+				32FEA02413D5922C00BBFEA4 /* Log4CocoaTouch-Universal */,
+				32FEA06E13D5924E00BBFEA4 /* Log4CocoaTouch */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		32FEA06D13D5924E00BBFEA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FEA07B13D5924E00BBFEA4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32FEA08E13D5933700BBFEA4 /* Lipo Binary */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Lipo Binary";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FRAMEWORK=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\nLIBS_LIST=\"\"\nDEVICE_LIB=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/libLog4CocoaTouch-iOS-Device.a\"\nSIMULATOR_LIB=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/libLog4CocoaTouch-iOS-Simulator.a\"\n\necho \"LIBS_LIST (genuine): ${LIBS_LIST}\"\nif [ -r ${DEVICE_LIB} ]; then\nLIBS_LIST=\"${LIBS_LIST} ${DEVICE_LIB}\"\nlipo -info \"${DEVICE_LIB}\"\nfi\necho \"LIBS_LIST (+device lib): ${LIBS_LIST}\"\nif [ -r ${SIMULATOR_LIB} ]; then\nLIBS_LIST=\"${LIBS_LIST} ${SIMULATOR_LIB}\"\nlipo -info \"${SIMULATOR_LIB}\"\nfi\necho \"LIBS_LIST (+simulator lib): ${LIBS_LIST}\"\n\nlipo ${LIBS_LIST} -create -output \"${BUILD_DIR}/lib${PRODUCT_NAME}.a\"\n# show the architectures in fat lib file\nlipo -info \"${BUILD_DIR}/lib${PRODUCT_NAME}.a\"\n\nmkdir -p \"${BUILD_DIR}/${CONFIGURATION}-iphoneos\"\nmkdir -p \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\"\ncp \"${BUILD_DIR}/lib${PRODUCT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PRODUCT_NAME}.a\"\ncp \"${BUILD_DIR}/lib${PRODUCT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PRODUCT_NAME}.a\"";
+			showEnvVarsInLog = 0;
+		};
+		32FEA09013D5936A00BBFEA4 /* Copy Library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Library";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FRAMEWORK=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\ncp \"${BUILD_DIR}/lib${PRODUCT_NAME}-Universal.a\" \"${FRAMEWORK}/Versions/Current/${PRODUCT_NAME}\"\n\n# Strip debugging symbols\n#strip -S \"${FRAMEWORK}/Versions/Current/${PRODUCT_NAME}\"\n\ncd \"${FRAMEWORK}\" && ln -sf \"Versions/Current/${PRODUCT_NAME}\" ./";
+			showEnvVarsInLog = 0;
+		};
+		32FEA09113D5937B00BBFEA4 /* Framework Archive */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Framework Archive";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Set the destroot\n#DESTROOT=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}\"\nDESTROOT=\"${SRCROOT}/build\"\nrm -rf \"${DESTROOT}/DiskImage/${PRODUCT_NAME}\"\nmkdir -p \"${DESTROOT}/DiskImage/${PRODUCT_NAME}\"\necho \"${DESTROOT}/DiskImage/${PRODUCT_NAME}\"\n\n# Per-platform framework destinations\n#IPHONE_DEST=\"${DESTROOT}/iPhone Framework\"\nDOC_DEST=\"${DESTROOT}/Documentation\"\n\n#cp -Rvf \"${BUILD_DIR}/${CONFIGURATION}/MSReachability.framework\" \"${DESTROOT}\"\n\ncp -Rvf \"${BUILD_DIR}/${CONFIGURATION}/${PRODUCT_NAME}.framework\" \"${DESTROOT}/DiskImage/${PRODUCT_NAME}\"\n\necho `date` > \"${DESTROOT}/DiskImage/${PRODUCT_NAME}/${PRODUCT_NAME}.framework/build.timestamp.txt\"\n\n# Populate the destroot\n#mkdir -p \"${IPHONE_DEST}\"\n#tar -C \"${BUILD_DIR}/${CONFIGURATION}/MSTemplatesRenderer\" -cf - \"MSTemplatesRenderer.framework\" | tar -C \"${IPHONE_DEST}\" -xf - \n\n#if [ ! -z `which doxygen` ]; then\n#pushd \"${SRCROOT}\" >/dev/null\n#doxygen\n#if [ $? != 0 ]; then\n#echo \"ERROR: Documentation generation failed\" >/dev/stderr\n#exit 1\n#fi\n#popd >/dev/null\n\n#rm -rf \"${DOC_DEST}\"\n#mv Documentation/API \"${DOC_DEST}\"\n#else\n#echo \"WARNING: Doxygen not available, skipping documentation generation\" >/dev/stderr\n#fi\n\n# Create the disk image\n#rm -f \"${DESTROOT}.dmg\"\n#hdiutil create -srcfolder \"${DESTROOT}\" \"${DESTROOT}.dmg\"\n\nrm -f \"${DESTROOT}/${PRODUCT_NAME}.dmg\"\n#hdiutil create -srcfolder \"${DESTROOT}\" \"${DESTROOT}/${PRODUCT_NAME}.dmg\"\nhdiutil create -srcfolder \"${DESTROOT}/DiskImage/${PRODUCT_NAME}\" \"${DESTROOT}/${PRODUCT_NAME}.dmg\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32FE9F5313D591CD00BBFEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FE9FA213D591F900BBFEA4 /* L4AppenderAttachable.m in Sources */,
+				32FE9FA513D591F900BBFEA4 /* L4AppenderSkeleton.m in Sources */,
+				32FE9FA713D591F900BBFEA4 /* L4BasicConfigurator.m in Sources */,
+				32FE9FA913D591F900BBFEA4 /* L4ConsoleAppender.m in Sources */,
+				32FE9FAB13D591F900BBFEA4 /* L4DailyRollingFileAppender.m in Sources */,
+				32FE9FAD13D591F900BBFEA4 /* L4DenyAllFilter.m in Sources */,
+				32FE9FAF13D591F900BBFEA4 /* L4FileAppender.m in Sources */,
+				32FE9FB113D591F900BBFEA4 /* L4Filter.m in Sources */,
+				32FE9FB313D591F900BBFEA4 /* L4Layout.m in Sources */,
+				32FE9FB513D591F900BBFEA4 /* L4Level.m in Sources */,
+				32FE9FB713D591F900BBFEA4 /* L4LevelMatchFilter.m in Sources */,
+				32FE9FB913D591F900BBFEA4 /* L4LevelRangeFilter.m in Sources */,
+				32FE9FBB13D591F900BBFEA4 /* L4Logger.m in Sources */,
+				32FE9FBD13D591F900BBFEA4 /* L4LoggerNameMatchFilter.m in Sources */,
+				32FE9FC013D591F900BBFEA4 /* L4LoggerStore.m in Sources */,
+				32FE9FC213D591F900BBFEA4 /* L4Logging.m in Sources */,
+				32FE9FC413D591F900BBFEA4 /* L4LoggingEvent.m in Sources */,
+				32FE9FC613D591F900BBFEA4 /* L4LogLog.m in Sources */,
+				32FE9FC813D591F900BBFEA4 /* L4PatternLayout.m in Sources */,
+				32FE9FCA13D591F900BBFEA4 /* L4Properties.m in Sources */,
+				32FE9FCC13D591F900BBFEA4 /* L4PropertyConfigurator.m in Sources */,
+				32FE9FCE13D591F900BBFEA4 /* L4RollingFileAppender.m in Sources */,
+				32FE9FD013D591F900BBFEA4 /* L4RootLogger.m in Sources */,
+				32FE9FD213D591F900BBFEA4 /* L4SimpleLayout.m in Sources */,
+				32FE9FD413D591F900BBFEA4 /* L4StringMatchFilter.m in Sources */,
+				32FE9FD613D591F900BBFEA4 /* L4WriterAppender.m in Sources */,
+				32FE9FDB13D591F900BBFEA4 /* NSDate-Calendar.m in Sources */,
+				32FE9FDD13D591F900BBFEA4 /* NSObject+Log4Cocoa.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FE9FDF13D5922900BBFEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FE9FE013D5922900BBFEA4 /* L4AppenderAttachable.m in Sources */,
+				32FE9FE113D5922900BBFEA4 /* L4AppenderSkeleton.m in Sources */,
+				32FE9FE213D5922900BBFEA4 /* L4BasicConfigurator.m in Sources */,
+				32FE9FE313D5922900BBFEA4 /* L4ConsoleAppender.m in Sources */,
+				32FE9FE413D5922900BBFEA4 /* L4DailyRollingFileAppender.m in Sources */,
+				32FE9FE513D5922900BBFEA4 /* L4DenyAllFilter.m in Sources */,
+				32FE9FE613D5922900BBFEA4 /* L4FileAppender.m in Sources */,
+				32FE9FE713D5922900BBFEA4 /* L4Filter.m in Sources */,
+				32FE9FE813D5922900BBFEA4 /* L4Layout.m in Sources */,
+				32FE9FE913D5922900BBFEA4 /* L4Level.m in Sources */,
+				32FE9FEA13D5922900BBFEA4 /* L4LevelMatchFilter.m in Sources */,
+				32FE9FEB13D5922900BBFEA4 /* L4LevelRangeFilter.m in Sources */,
+				32FE9FEC13D5922900BBFEA4 /* L4Logger.m in Sources */,
+				32FE9FED13D5922900BBFEA4 /* L4LoggerNameMatchFilter.m in Sources */,
+				32FE9FEE13D5922900BBFEA4 /* L4LoggerStore.m in Sources */,
+				32FE9FEF13D5922900BBFEA4 /* L4Logging.m in Sources */,
+				32FE9FF013D5922900BBFEA4 /* L4LoggingEvent.m in Sources */,
+				32FE9FF113D5922900BBFEA4 /* L4LogLog.m in Sources */,
+				32FE9FF213D5922900BBFEA4 /* L4PatternLayout.m in Sources */,
+				32FE9FF313D5922900BBFEA4 /* L4Properties.m in Sources */,
+				32FE9FF413D5922900BBFEA4 /* L4PropertyConfigurator.m in Sources */,
+				32FE9FF513D5922900BBFEA4 /* L4RollingFileAppender.m in Sources */,
+				32FE9FF613D5922900BBFEA4 /* L4RootLogger.m in Sources */,
+				32FE9FF713D5922900BBFEA4 /* L4SimpleLayout.m in Sources */,
+				32FE9FF813D5922900BBFEA4 /* L4StringMatchFilter.m in Sources */,
+				32FE9FF913D5922900BBFEA4 /* L4WriterAppender.m in Sources */,
+				32FE9FFA13D5922900BBFEA4 /* NSDate-Calendar.m in Sources */,
+				32FE9FFB13D5922900BBFEA4 /* NSObject+Log4Cocoa.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FEA02513D5922C00BBFEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FEA02613D5922C00BBFEA4 /* L4AppenderAttachable.m in Sources */,
+				32FEA02713D5922C00BBFEA4 /* L4AppenderSkeleton.m in Sources */,
+				32FEA02813D5922C00BBFEA4 /* L4BasicConfigurator.m in Sources */,
+				32FEA02913D5922C00BBFEA4 /* L4ConsoleAppender.m in Sources */,
+				32FEA02A13D5922C00BBFEA4 /* L4DailyRollingFileAppender.m in Sources */,
+				32FEA02B13D5922C00BBFEA4 /* L4DenyAllFilter.m in Sources */,
+				32FEA02C13D5922C00BBFEA4 /* L4FileAppender.m in Sources */,
+				32FEA02D13D5922C00BBFEA4 /* L4Filter.m in Sources */,
+				32FEA02E13D5922C00BBFEA4 /* L4Layout.m in Sources */,
+				32FEA02F13D5922C00BBFEA4 /* L4Level.m in Sources */,
+				32FEA03013D5922C00BBFEA4 /* L4LevelMatchFilter.m in Sources */,
+				32FEA03113D5922C00BBFEA4 /* L4LevelRangeFilter.m in Sources */,
+				32FEA03213D5922C00BBFEA4 /* L4Logger.m in Sources */,
+				32FEA03313D5922C00BBFEA4 /* L4LoggerNameMatchFilter.m in Sources */,
+				32FEA03413D5922C00BBFEA4 /* L4LoggerStore.m in Sources */,
+				32FEA03513D5922C00BBFEA4 /* L4Logging.m in Sources */,
+				32FEA03613D5922C00BBFEA4 /* L4LoggingEvent.m in Sources */,
+				32FEA03713D5922C00BBFEA4 /* L4LogLog.m in Sources */,
+				32FEA03813D5922C00BBFEA4 /* L4PatternLayout.m in Sources */,
+				32FEA03913D5922C00BBFEA4 /* L4Properties.m in Sources */,
+				32FEA03A13D5922C00BBFEA4 /* L4PropertyConfigurator.m in Sources */,
+				32FEA03B13D5922C00BBFEA4 /* L4RollingFileAppender.m in Sources */,
+				32FEA03C13D5922C00BBFEA4 /* L4RootLogger.m in Sources */,
+				32FEA03D13D5922C00BBFEA4 /* L4SimpleLayout.m in Sources */,
+				32FEA03E13D5922C00BBFEA4 /* L4StringMatchFilter.m in Sources */,
+				32FEA03F13D5922C00BBFEA4 /* L4WriterAppender.m in Sources */,
+				32FEA04013D5922C00BBFEA4 /* NSDate-Calendar.m in Sources */,
+				32FEA04113D5922C00BBFEA4 /* NSObject+Log4Cocoa.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FEA06A13D5924E00BBFEA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -131,11 +745,40 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		32FEA08113D5925700BBFEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32FEA02413D5922C00BBFEA4 /* Log4CocoaTouch-Universal */;
+			targetProxy = 32FEA08013D5925700BBFEA4 /* PBXContainerItemProxy */;
+		};
+		32FEA08313D5925C00BBFEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32FE9FDE13D5922900BBFEA4 /* Log4CocoaTouch-iOS-Simulator */;
+			targetProxy = 32FEA08213D5925C00BBFEA4 /* PBXContainerItemProxy */;
+		};
+		32FEA08513D5925F00BBFEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32FE9F5613D591CD00BBFEA4 /* Log4CocoaTouch-iOS-Device */;
+			targetProxy = 32FEA08413D5925F00BBFEA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32FEA07913D5924E00BBFEA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FEA07A13D5924E00BBFEA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		32FE9F5F13D591CD00BBFEA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -144,20 +787,24 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				SDKROOT = iphoneos;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64 armv6 armv7";
 			};
 			name = Debug;
 		};
 		32FE9F6013D591CD00BBFEA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				SDKROOT = iphoneos;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64 armv6 armv7";
 			};
 			name = Release;
 		};
@@ -165,11 +812,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/Log4CocoaTouch.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Log4CocoaTouch/Log4CocoaTouch-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -177,11 +826,116 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/Log4CocoaTouch.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Log4CocoaTouch/Log4CocoaTouch-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		32FEA02113D5922900BBFEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/Log4CocoaTouch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Log4CocoaTouch/Log4CocoaTouch-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Log4CocoaTouch-iOS-Simulator";
+				SDKROOT = iphonesimulator;
+			};
+			name = Debug;
+		};
+		32FEA02213D5922900BBFEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/Log4CocoaTouch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Log4CocoaTouch/Log4CocoaTouch-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Log4CocoaTouch-iOS-Simulator";
+				SDKROOT = iphonesimulator;
+			};
+			name = Release;
+		};
+		32FEA06713D5922C00BBFEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/Log4CocoaTouch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Log4CocoaTouch/Log4CocoaTouch-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Log4CocoaTouch-Universal";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32FEA06813D5922C00BBFEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/Log4CocoaTouch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Log4CocoaTouch/Log4CocoaTouch-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Log4CocoaTouch-Universal";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		32FEA07E13D5924E00BBFEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Log4CocoaTouch/Log4CocoaTouch-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Log4CocoaTouch/Log4CocoaTouch-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		32FEA07F13D5924E00BBFEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Log4CocoaTouch/Log4CocoaTouch-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Log4CocoaTouch/Log4CocoaTouch-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
@@ -197,13 +951,41 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32FE9F6113D591CD00BBFEA4 /* Build configuration list for PBXNativeTarget "Log4CocoaTouch" */ = {
+		32FE9F6113D591CD00BBFEA4 /* Build configuration list for PBXNativeTarget "Log4CocoaTouch-iOS-Device" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32FE9F6213D591CD00BBFEA4 /* Debug */,
 				32FE9F6313D591CD00BBFEA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FEA02013D5922900BBFEA4 /* Build configuration list for PBXNativeTarget "Log4CocoaTouch-iOS-Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FEA02113D5922900BBFEA4 /* Debug */,
+				32FEA02213D5922900BBFEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FEA06613D5922C00BBFEA4 /* Build configuration list for PBXNativeTarget "Log4CocoaTouch-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FEA06713D5922C00BBFEA4 /* Debug */,
+				32FEA06813D5922C00BBFEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FEA07D13D5924E00BBFEA4 /* Build configuration list for PBXNativeTarget "Log4CocoaTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FEA07E13D5924E00BBFEA4 /* Debug */,
+				32FEA07F13D5924E00BBFEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
